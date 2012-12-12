@@ -59,7 +59,7 @@ class FileUpload extends CAction
 				'filename'=>$fileName,
 			);
 			echo CJSON::encode($data);
-			exit();
+			exit;
 		} else {
 			throw new CHttpException(500,CJSON::encode(
 				array('error'=>'Could not upload file.')

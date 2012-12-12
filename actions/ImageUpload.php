@@ -63,7 +63,7 @@ class ImageUpload extends CAction
 				'filelink'=>$attributeUrl,
 			);
 			echo CJSON::encode($data);
-			exit();
+			exit;
 		} else {
 			throw new CHttpException(500,CJSON::encode(
 				array('error'=>'Could not upload file.')
