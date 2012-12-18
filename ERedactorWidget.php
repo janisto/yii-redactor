@@ -4,7 +4,7 @@
  * Redactor widget
  *
  * @author Jani Mikkonen <janisto@php.net>
- * @version 1.1-dev
+ * @version 1.1
  * @license public domain (http://unlicense.org)
  * @package extensions.redactor
  * @link http://imperavi.com/redactor/

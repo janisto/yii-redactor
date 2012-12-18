@@ -5,6 +5,7 @@
  *
  * @param string $attr Model attribute
  */
+
 class ImageList extends CAction
 {
 	public $uploadPath;

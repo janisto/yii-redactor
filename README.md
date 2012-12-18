@@ -216,6 +216,10 @@ $this->widget('ext.redactor.ERedactorWidget',array(
 Changelog
 ------------------
 
+### v1.1
+
+- Default actions for image and file upload.
+
 ### v1.0
 
 - Initial version.

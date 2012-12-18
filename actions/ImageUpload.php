@@ -6,6 +6,7 @@
  * @param string $attr Model attribute
  * @throws CHttpException
  */
+
 class ImageUpload extends CAction
 {
 	public $uploadPath;
