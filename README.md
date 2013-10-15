@@ -164,14 +164,14 @@ class PostController extends Controller
 				'uploadPath'=>'/path/to/uploads/folder',
 				'uploadUrl'=>'/url/to/uploads/folder',
 				'uploadCreate'=>true,
-				'permissions'=>0664,
+				'permissions'=>0755,
 			),
 			'imageUpload'=>array(
 				'class'=>'ext.redactor.actions.ImageUpload',
 				'uploadPath'=>'/path/to/uploads/folder',
 				'uploadUrl'=>'/url/to/uploads/folder',
 				'uploadCreate'=>true,
-				'permissions'=>0664,
+				'permissions'=>0755,
 			),
 			'imageList'=>array(
 				'class'=>'ext.redactor.actions.ImageList',
