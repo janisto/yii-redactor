@@ -216,11 +216,15 @@ $this->widget('ext.redactor.ERedactorWidget',array(
 Changelog
 ------------------
 
-### v1.1
+### v1.2.0
+
+- Update readme.
+
+### v1.1.0
 
 - Default actions for image and file upload.
 
-### v1.0
+### v1.0.0
 
 - Initial version.
 
